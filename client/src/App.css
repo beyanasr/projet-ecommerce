@@ -1,0 +1,261 @@
+/*product*/
+.product {
+    width: 300px;
+    padding: 1rem;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .product > img {
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+  
+  .product__info > p {
+    margin-bottom: 8px;
+  }
+  
+  .info__price {
+    font-weight: bold;
+  }
+  
+  .info__name {
+    font-size: 1rem;
+    overflow: hidden;
+  }
+  
+  .info__description {
+    font-size: 0.8rem;
+  }
+  
+  .info__button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #171717;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: #f4f4f4;
+    border: 1px solid #171717;
+    font-size: 1rem;
+  }
+  
+  .info__button:hover {
+    background: #171717;
+    color: #f4f4f4;
+  }
+  
+  @media (max-width: 1232px) {
+    .product {
+      width: 360px;
+    }
+  }
+  
+  @media (max-width: 1115px) {
+    .product {
+      width: 330px;
+    }
+  }
+  
+  @media (max-width: 1028px) {
+    .product {
+      width: 300px;
+    }
+  }
+  
+  @media (max-width: 950px) {
+    .product {
+      width: 400px;
+    }
+  }
+  
+  @media (max-width: 830px) {
+    .product {
+      width: 330px;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .product {
+      width: 290px;
+    }
+  }
+  
+  @media (max-width: 630px) {
+    .product {
+      width: 450px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .product {
+      width: 350px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .product {
+      width: 300px;
+    }
+  }
+  
+  /*--------shop-------*/
+  /* .shopcontenent{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  
+  .img1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-left: 5px;
+    /* margin-top: 40px; */
+  }
+  /* .img1 img {
+   width: 100%;
+   height: 100%;
+  } */
+  
+  .secondsection{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    /* padding-top: 50px; */
+  }
+ 
+  
+  .secondsection h1{
+    color: red;
+  }
+  .secondsection .photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .secondsection .leftsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .secondsection .leftsection .firstcouple {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+  }
+  .secondsection .leftsection .firstcouple img{
+    height: 200px;
+    width: 200px;
+  margin: 10px;
+  }
+  .secondsection .leftsection img {
+    height: 300px;
+    width: 450px;
+  }
+  
+  .secondsection .rightsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .secondsection .rightsection .secondcouple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .secondsection .rightsection .secondcouple img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    
+  }
+  .secondsection .rightsection img {
+    height: 300px;
+    width: 450px;
+  }
+  .amira{
+    display: flex;
+  }
+  .paragraphe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  
+  }
+  
+  .img2 img{
+    height: 300px;
+    width: 600px;
+    margin-left: 60px;
+  }
+  /*--------footer-------*/
+  
+  .footer{
+    background: rgb(128, 127, 127);
+    color: #161616;
+    font-size:14px ;
+    padding:60px 20px;
+    
+  }
+  .footer p{
+    color:#161616;
+  }
+  .footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    min-width:200px ;
+    margin-bottom:20px ;
+  }
+  .footer-col-1{
+  flex-basis: 30%;
+  }
+  .footer-col-2{
+    flex: 1;
+    text-align:center ;
+  }
+ 
+  .footer-col-3,.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+  }
+  ul{
+    list-style-type: none;
+  }
+  .app-logo{
+    margin-top: 20px;
+  }
+
+  .footer span{
+    border:none;
+    background: #b5b5b5;
+    height: 1px;
+    margin:20px 0;
+  }
+  .Copyright{
+    text-align: center;
+  }
+  
